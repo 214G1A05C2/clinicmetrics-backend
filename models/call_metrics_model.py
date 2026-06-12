@@ -4,7 +4,7 @@ db = SQLAlchemy()
 
 
 class CallMetrics(db.Model):
-    __tablename__ = "call_metrics"
+    __tablename__ = "call_record"
 
     id = db.Column(db.String(64), primary_key=True)
     call_id = db.Column(db.Integer)
